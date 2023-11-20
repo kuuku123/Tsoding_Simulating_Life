@@ -5,7 +5,8 @@
 #define WIDTH 10
 #define HEIGHT 10
 
-char level[] = " .-=coA@#";
+char level[] = 
+"' ', '.', '-', '=', 'c', 'o', 'A', '@', '#', "
 #define level_count sizeof(level)/sizeof(level[0]-1) // because string in c comes with 0 at last , making size bigger
 
 float grid[HEIGHT][WIDTH] = {0};
